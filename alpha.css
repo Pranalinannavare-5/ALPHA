@@ -1,0 +1,531 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  background-image: url(./images/banner.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  font-family: 'Nunito', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: #f5f5f5;
+}
+
+#HeaderSection{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+#HeaderSection #left h1{   
+  font-size: 15px;
+}
+
+#HeaderSection #right ul{
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  list-style-type: none;
+}
+
+#HeaderSection #right ul li button{
+  border: 2px solid white;
+  border-radius: 5px;
+  width: 90px;
+  height: 38px;
+  background-color: transparent;
+  color: white;
+}
+#HeaderSection #left h1 span{
+  font-weight: 100;
+}
+
+#BodySection{
+  color: white;
+  text-align:center; 
+  /* for displaying text in center */
+  margin-top: 118px;
+
+}
+ 
+#BodySection h1{
+  font-size: 50px;
+  margin-bottom: 0px;
+}
+
+#BodySection p{
+  font-size: 20px;
+}
+
+#BodySection button{
+  width: 176px;
+  height: 47px;
+ border-radius: 5px;
+ border: none;
+ margin-right: 20px;
+ margin-top: 24px;
+ color: grey;
+}
+
+#BodySection #learn{
+  border: 2px solid white;
+  background-color: transparent;
+  color: white;
+}
+#ContentSection{
+  text-align: center;
+  background-color: white;
+  width: 70%;
+  margin: auto;
+  margin-top: 124px;
+  padding-top: 35px;
+  border-radius: 5px;
+  color: #6c6c6c;
+}
+#ContentSection h1{
+  font-size: 35px;
+}
+
+#ContentSection p{
+  font-size: 20px;
+  border-top: 2px solid #e5e5e5 ;
+  width: 60%;
+  margin: auto;
+  padding-top: 25px;
+  padding-bottom: 40px;
+}
+#ContentSection img{
+width: 100%;
+}
+
+#menu{
+  display: none;
+}
+
+#IconSection{
+  background-color: white;
+  border-radius: 5px;
+  margin-top: 25px;
+  width: 70%;
+  margin: auto;
+  color:  #848484;
+  padding: 20px;
+
+}
+#IconSection div{
+  display: inline-block;
+  text-align: center;
+  width: 45%;
+  padding-top: 20px;
+}
+
+.fa.fa-bolt{
+font-size: 35px;
+border-radius: 100%;
+background-color:#e89980;
+color: white;
+padding: 20px 30px;
+}
+
+.fa.fa-area-chart{
+font-size: 35px;
+border-radius: 100%;
+background-color:#7fcdb8;
+color: white;
+padding: 20px 23px;
+}
+
+.fa.fa-cloud{
+  font-size: 35px;
+border-radius: 100%;
+background-color:#90b0ba;
+color: white;
+padding: 20px 23px;
+
+}
+
+.fa.fa-lock{
+  font-size: 35px;
+  border-radius: 100%;
+  background-color:#e5cb95;
+  color: white;
+  padding: 20px 30px;
+}
+
+#div1{
+  border-right:  2px solid #e5e5e5 ; 
+  border-bottom:  2px solid #e5e5e5 ;
+  position: relative;
+  left: 3px;
+  top: 2px;
+
+}
+#div4{
+  border-top: 2px solid #e5e5e5;
+  border-left:2px solid #e5e5e5 ;
+  
+}
+
+
+#ImageSection{
+  margin: auto;
+  width: 70%;
+  margin-top: 20px;
+  display: flex;
+  color: #6c6c6c;
+  justify-content: space-between;
+ 
+}
+#ImageSection div{
+  text-align: center;
+  width: 48%;
+  background-color:white ;
+  border-radius: 5px;
+  padding-bottom: 20px;
+}
+#ImageSection div img{
+  width: 100%;
+  border-radius: 5px;
+}
+
+#IconSection section{
+  margin-left: 80px;
+}
+
+#ImageSection div .btn1{
+  width: 176px;
+  height: 47px;
+ border-radius: 5px;
+ border: 2px solid #e1e1ed;
+ margin-right: 20px;
+ margin-top: 24px;
+ color: #777;
+ background-color: transparent;
+ font-size: 15px;
+}
+
+#SignupSection{
+  text-align: center;
+  width: 100%;
+  margin-top: 80px;
+  background-color: #e89980;
+  color: rgb(238, 230, 230);
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 80px;
+  font-size: 20px;
+}
+#SignupSection p{
+  font-size: 17px;
+  padding-bottom: 20px;
+}
+
+#SignupSection input{
+  height: 45px;
+  width: 267px;
+  background-color: #eba893;
+  border: none;
+  border-radius: 5px;
+}
+::placeholder{
+  color:rgb(232, 230, 230);
+  padding-left: 20px;
+}
+
+#SignupSection button{
+  height: 45px;
+  width: 100px;
+  background-color: white;
+  border: white;
+  border-radius: 5px;
+  padding-left: 6px;
+  color: #eba893;
+}
+#abc{
+  margin-left:22px ;
+}
+
+
+
+ #FooterSection #xyz{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  color: #c6c6c6;
+  font-size: 35px;
+  
+ }
+
+ #FooterSection p{
+  display: flex;
+  justify-content: center;
+ }
+
+ #FooterSection #para{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding-bottom: 80px;
+  color: #c6c6c6;
+  font-size: 15px;
+ }
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -----mobile version------- */
+
+@media(max-width:600px)
+{
+  
+  #menu{
+    display: inline-block;
+    color: white;
+    background-color: grey;
+    padding:5px;
+    border-radius: 5px;
+  }
+  #HeaderSection{
+    display: none;
+  }
+
+  #BodySection{
+    color: white;
+    text-align:center; 
+    /* for displaying text in center */
+    margin-right: -28px;
+    margin-bottom: -48px;
+
+  }
+
+  body{
+    background-size: 200%;
+    background-position-x: center;
+    width: 80%;
+    margin: auto;
+  }
+  #BodySection h1 {
+    font-size: 30px;
+    margin-top: 54px;
+    margin-left: 20px;
+  }
+  #BodySection p{
+    font-size: 18px;
+  }
+  #BodySection button{
+    width: 100%;
+  }
+  #ContentSection{
+
+    width: 138%;
+    margin-top: 75px;
+    margin-left: -43px;
+}
+
+
+  #ContentSection h1{
+    font-size: 23px;
+}
+#ContentSection p{
+  width: 80%;
+  font-size: 100%;
+}
+br{
+display: none;
+}
+
+#IconSection{
+  background-color: white;
+    margin-top: 25px;
+    width: 125%;
+    margin-left: -40px;
+    color: #848484;
+    padding: 20px;
+  
+}
+
+#IconSection div{
+  display: block;
+  text-align: center;
+  width: 100%;
+  padding-top: 20px;
+  margin-left: -43px;
+
+}
+
+#div1{
+  border-right: none;
+  border-bottom:  2px solid #e5e5e5 ;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+#div2{
+  border-bottom:  2px solid #e5e5e5 ;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+#div3{
+  border-bottom:  2px solid #e5e5e5 ;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+  #div4{
+    border-left: none;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+
+
+  
+#ImageSection{
+  width: 135%;
+    margin-top: 20px;
+    display: block;
+    color: #6c6c6c;
+    margin-left: -41px;
+    margin-right: -37px;
+    
+}
+
+#ImageSection div{
+  text-align: center;
+  width:100%;
+  background-color:white ;
+  text-align: center;
+  padding: 2px;
+
+}
+#ImageSection div img{
+margin-top: 20px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+#IconSection section{
+  margin-left: 80px;
+
+}
+
+#ImageSection div .btn1{
+  width: 377px;
+    height: 56px;
+    border-radius: 5px;
+    border: 2px solid #e1e1ed;
+    margin-right: 2px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+ color: #777;
+ background-color: transparent;
+ font-size: 15px;
+}
+#SignupSection{
+  text-align: center;
+  width: 135%;
+    margin-left: -42px;
+  background-color: #e89980;
+  color: rgb(238, 230, 230);
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 80px;
+  font-size: 20px;
+  margin-top: 2px;
+
+}
+
+#SignupSection input{
+  height: 45px;
+  width: 80%;
+  background-color: #eba893;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+::placeholder{
+  color:rgb(232, 230, 230);
+  padding-left: 20px;
+}
+
+#SignupSection button{
+  height: 45px;
+  width: 80%;
+  background-color: white;
+  border: white;
+  border-radius: 5px;
+  padding-left: 3px;
+  color: #eba893;
+  margin-left: 1px;
+}
+
+
+
+ #FooterSection #para{
+  display: flex;
+  justify-content: center;
+display: inline-block;
+  gap: 20px;
+  padding-bottom: 80px;
+  color: #c6c6c6;
+  font-size: 15px;
+  padding-left: 71px;
+ }
+ 
+ #FooterSection #para #p1{
+  display: none;
+ }
+ 
+
+
+}
